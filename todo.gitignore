@@ -1,0 +1,5 @@
+When the person is typing, it prints in Akagu, but when they hit "space" the program searches the array to see if the previous word (before the space) has an Nsibidi character equivalent.
+
+If it does not have an Nsibidi character equivalent, THEN remove it from consideration, leave the Akagu text in the text area as it is, and begin considering the next group of inputs 
+//we need a temp holder 
+//we need a fast way to sort the array (check the first letter against the first letter of the array record and stop searching when the word is complete and there are no other characters in the word)

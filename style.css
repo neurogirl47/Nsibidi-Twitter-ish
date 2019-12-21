@@ -1,0 +1,31 @@
+button:hover {
+        background: rgba(0, 0, 0, 0.2);
+        font-weight: bold;
+      }
+
+#userpost {
+  width: 50vw;
+}
+
+@media screen and (max-width: 800px) {
+  #userpost {
+    width: 100vw;
+  }
+}
+
+
+textarea {
+width: 100%;
+height: 150px;
+box-shadow: 0 4px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+#nsibiditrans {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: akagu, Geneva, Tahoma, Arial;
+}
+
+@font-face {
+  font-family: akagu;
+  src: url(fonts/Akagu.ttf);
+}
